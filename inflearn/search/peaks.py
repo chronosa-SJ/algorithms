@@ -1,3 +1,7 @@
+"""
+4방향 탐색 시 dx, dy 배열을 두고 아래 코드를 활용
+if all(arr[i][j] > arr[i+dx[k]][j+dy[k]] for k in range(4)):
+"""
 import sys
 from pprint import pprint
 
